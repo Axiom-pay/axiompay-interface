@@ -1,0 +1,110 @@
+.nav {
+    height: 82px;
+    padding: 0 58px;
+    background: #010101;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*position: relative;*/
+}
+
+//.btn-text{
+//    filter: blur(0);
+//}
+
+.user-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+    }
+
+    &-right, &-left{
+        display: flex;
+    }
+}
+
+.sub-title{
+    color: #718096;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: "DMSans";
+}
+
+.user{
+
+    &-account,&-account-bg{
+        display: flex;
+        padding: 9px 12px 9px 8px;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 12px;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+        background: rgba(49, 130, 206, 0.20);
+
+        &-icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            //text-align: center;
+            //line-height: 40px;
+            //padding: 16px 8px;
+            margin-right: 8px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            background: #3182CE;
+        }
+    }
+
+    &-account-bg{
+        background: url("../../assets/accountBg.png") no-repeat;
+    }
+}
+
+.address-list{
+    border-radius: 12px;
+    background: rgba(74, 85, 104, 0.30);
+    padding-top: 16px;
+    //margin: 20px 0;
+
+    &-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 72px;
+        padding: 0 16px;
+
+        &-title{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.private-box{
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+    padding-top: 20px;
+
+    //.default-button{
+    //    background: rgba(74, 85, 104, 0.30);
+    //}
+}
+
+.price {
+    color: #8B8CA7;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "DMSans";
+}
+

@@ -1,0 +1,47 @@
+{
+  "contracts": [
+    {
+      "contractName": "MockERC20",
+      "contractAddress": "0x80140c8fAb0eC4f52246C5cdadaFe2419AAE126E"
+    },
+    {
+      "contractName": "Priv2PrivVerifier",
+      "contractAddress": "0x4772174f28969B9d69a2c6A21bd2E909e7DE40bf"
+    },
+    {
+      "contractName": "Priv2PubVerifier",
+      "contractAddress": "0xE1b20f12f39CCD99f234bCDc802AC7EF06eB72F7"
+    },
+    {
+      "contractName": "Pub2PrivVerifier",
+      "contractAddress": "0x054803ad8CA9Cff9D7C0868752487074A15F71a1"
+    },
+    {
+      "contractName": "Validator",
+      "contractAddress": "0x1A8CA5EE9B5f77cE72128f49A150E58dcDC572ea"
+    },
+    {
+      "contractName": "TwinTokenPool",
+      "contractAddress": "0x45565808BB5f11E774f8A804A65182B8FD12110d"
+    },
+    {
+      "contractName": "AxiomPay",
+      "contractAddress": "0xd9519b550ed1088e691a06e2e373db51806208ee"
+    },
+    {
+      "contractName": "PrivateToken",
+      "contractAddress": "0x6c964da3d63ef99d4c8800545363b84915be3eba"
+    }
+  ],
+  "cryptoParams": {
+    "lambda": "142108676474440899933412474765114361292",
+    "mu": "72030113638689535843561629059875370917",
+    "_p": "23318221135240504399",
+    "_q": "12188637859658516309",
+    "publicKey": {
+      "n": "284217352948881799902331808525127743291",
+      "_n2": "80779503717269249958845880674654526670503763057776317363214947029898395510681",
+      "g": "44661655323352595483377614971771947852067729303119643146133738849954542083414"
+    }
+  }
+}

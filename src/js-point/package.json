@@ -1,0 +1,34 @@
+{
+  "name": "js-point",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --timeout 10m",
+    "test:performance": "npm run transpile && npx mocha --grep 'test average time cost for encrypt and decrypt' --timeout 1000000",
+    "transpile": "babel src --out-dir dist",
+    "clean": "rimraf dist"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@noble/curves": "^1.2.0",
+    "chai": "^4.3.10",
+    "ethers": "^6.8.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1",
+    "rimraf": "^5.0.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.10",
+    "typescript": "^5.2.2"
+  }
+}
